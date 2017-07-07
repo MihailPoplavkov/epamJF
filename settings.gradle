@@ -1,0 +1,10 @@
+rootProject.name = 'epamJF'
+
+include 'core',
+        'intro',
+        'oop',
+        'strings',
+        'io',
+        'exceptions'
+rootProject.name = 'epamJF'
+
