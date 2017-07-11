@@ -12,11 +12,11 @@ public abstract class Pencil implements Chancery {
 
     @Override
     public double getPrice() {
-        return 0;
+        return price;
     }
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 }

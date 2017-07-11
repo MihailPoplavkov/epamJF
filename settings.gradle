@@ -5,6 +5,6 @@ include 'core',
         'oop',
         'strings',
         'io',
-        'exceptions'
-rootProject.name = 'epamJF'
+        'exceptions',
+        'collections'
 
