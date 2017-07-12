@@ -1,7 +1,10 @@
 package task6;
+
 import lombok.Value;
+import task7.Annotation;
 
 @SuppressWarnings("WeakerAccess")
+@Annotation("NuclearPoweredBoat")
 public class NuclearPoweredBoat {
     private String name;
     private Engine engine;
@@ -26,5 +29,11 @@ public class NuclearPoweredBoat {
 
     public String swim() {
         return String.format("%s swimming with engine %s", name, engine.toString());
+    }
+
+    public static String getValueFromAnnotation() {
+        return NuclearPoweredBoat.class
+                .getAnnotation(Annotation.class)
+                .value();
     }
 }
