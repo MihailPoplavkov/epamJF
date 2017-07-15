@@ -1,0 +1,16 @@
+new 8
+private 3
+package 1
+static 2
+void 1
+import 3
+this 1
+for 1
+throws 2
+while 1
+int 1
+public 4
+else 3
+char 1
+class 1
+if 5
